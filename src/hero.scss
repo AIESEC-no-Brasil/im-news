@@ -1,0 +1,13 @@
+/* The hero image */
+.has-background {
+  &.background-presentation {
+    /* The image used */
+    background-image: url("./assets/imgs/presentation.jpg");
+  }
+  
+    /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

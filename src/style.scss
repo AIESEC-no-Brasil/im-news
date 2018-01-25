@@ -1,0 +1,31 @@
+
+.active {
+  border-bottom: none;
+  border-width: 1px;
+  background: linear-gradient(rgba(0,0,0, .4), #fff);  
+  font-weight: bold;
+  opacity: .4;
+  color: black;
+}
+
+a.navbar-item:hover {
+    color: black;
+    font-weight: 600
+}
+
+a.active:hover {
+    color: white
+}
+.navbar-item img {
+  max-height: 3.75rem;
+}
+
+
+.section {
+    padding: 6rem 1.5rem;
+}
+
+hr {
+    height: 15px;
+    background-color: #dfdfdf;
+}

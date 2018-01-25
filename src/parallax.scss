@@ -1,0 +1,13 @@
+.has-parallax { 
+    /* The image used */
+    background-color: aqua;
+
+    /* Set a specific height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
