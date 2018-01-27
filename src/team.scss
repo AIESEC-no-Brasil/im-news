@@ -22,7 +22,9 @@ figure.image {
     opacity: 0;
     transition: 0.5s ease;
     background-color: #3c3c3c;
-    border-radius: 50%;
+  }
+  .is-radius {
+    border-radius: 50%; 
   }
   
   figure.image:hover .overlay {

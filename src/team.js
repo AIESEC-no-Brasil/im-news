@@ -8,6 +8,8 @@ import pablo from './assets/imgs/pablo.jpeg'
 import pelu from './assets/imgs/pelu.jpeg'
 import veni from './assets/imgs/veni.jpeg'
 import victor from './assets/imgs/victor.jpeg'
+import lucast from './assets/imgs/lucast.jpg'
+import { replaceImgs } from "./utils";
 
 const imgs = {
     artur,
@@ -18,12 +20,8 @@ const imgs = {
     rodolfo,
     pablo,
     pelu,
+    lucast,
     veni,
     victor
 }
-
-Array.from(document.querySelectorAll('img[id^=team]'))
-    .map(el => {
-        const id = el.id.split('-')[1]
-        el.src = imgs[id]
-    })
+replaceImgs('img[id^=team]', imgs)
